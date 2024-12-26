@@ -43,31 +43,31 @@ class LexofficeServiceProvider extends ServiceProvider
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficeProfileManager();  //done  -
+            return new \Codersgarden\PhpLexofficeApi\LexofficeProfileManager(); 
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficePaymentManager();  //done  -
+            return new \Codersgarden\PhpLexofficeApi\LexofficePaymentManager(); 
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficePaymentConditionManager();  //done
+            return new \Codersgarden\PhpLexofficeApi\LexofficePaymentConditionManager();
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficeQuotationManager();  //done
+            return new \Codersgarden\PhpLexofficeApi\LexofficeQuotationManager();
         });
  
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficeVoucherListManager();  //done
+            return new \Codersgarden\PhpLexofficeApi\LexofficeVoucherListManager();
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficeVoucherManager();  //update not working  upload file
+            return new \Codersgarden\PhpLexofficeApi\LexofficeVoucherManager();
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
-            return new \Codersgarden\PhpLexofficeApi\LexofficeDunningManager();   //done
+            return new \Codersgarden\PhpLexofficeApi\LexofficeDunningManager(); 
         });
 
         $this->app->singleton('lexoffice-order-confirmation', function ($app) {
